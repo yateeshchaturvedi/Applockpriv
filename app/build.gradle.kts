@@ -44,7 +44,7 @@ android {
 }
 
 dependencies {
-    val camerax_version = "1.3.4"
+    val camerax_version = "1.6.1"
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
