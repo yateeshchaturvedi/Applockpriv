@@ -56,7 +56,7 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation("androidx.biometric:biometric:1.2.0-alpha05")
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("com.google.accompanist:accompanist-drawablepainter:0.28.0")
+    implementation("com.google.accompanist:accompanist-drawablepainter:0.37.3")
     
     // CameraX
     implementation("androidx.camera:camera-core:${camerax_version}")
