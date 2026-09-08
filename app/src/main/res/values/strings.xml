@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Applockpriv</string>
+    <string name="accessibility_service_description">Enables zero-latency instant locking when opening protected applications.</string>
 </resources>

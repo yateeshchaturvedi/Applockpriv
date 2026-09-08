@@ -19,3 +19,19 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# AndroidX Security Crypto
+-keepclassmembers class * extends androidx.security.crypto.EncryptedSharedPreferences { *; }
+-keepclassmembers class * extends androidx.security.crypto.MasterKey { *; }
+
+# Biometrics
+-keep class androidx.biometric.** { *; }
+
+# CameraX
+-keep class androidx.camera.core.** { *; }
+-keep class androidx.camera.lifecycle.** { *; }
+-keep class androidx.camera.camera2.** { *; }
+
+# Keep data classes & models
+-keepclassmembers class com.yateeshpriv.applockpriv.AppInfo { *; }
+-keepclassmembers enum com.yateeshpriv.applockpriv.AuthMethod { *; }
